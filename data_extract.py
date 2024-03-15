@@ -12,7 +12,7 @@ start_date = start_date.strftime("%Y-%m-%d")
 end_date = end_date.strftime("%Y-%m-%d")
 
 city = 'Sao%20Paulo'
-key = '9VQ899YFVCDCVA5XHCSH836W4'
+key = 'xxxxxxxxxxxxxxxxxx'
 
 url = f"https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/{city}/{start_date}/{end_date}?unitGroup=metric&include=days&key={key}&contentType=csv"
 
